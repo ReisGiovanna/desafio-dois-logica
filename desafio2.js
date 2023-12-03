@@ -55,3 +55,34 @@ else if (partidasParaCalcular >= 101)
 {
     opcaoClassicacao = 7
 }
+
+switch(opcaoClassicacao)
+{
+    case 1:
+        classificaoHeroi = "Ferro"
+        break
+
+    case 2:
+        classificaoHeroi = "Bronze"
+        break
+
+    case 3:
+        classificaoHeroi = "Prata"
+        break
+
+    case 4:
+        classificaoHeroi = "Ouro"
+        break
+
+    case 5:
+        classificaoHeroi = "Diamante"
+        break
+
+    case 6:
+        classificaoHeroi = "Lendário"
+        break
+
+    case 7:
+        classificaoHeroi = "Imortal"
+        break
+}
