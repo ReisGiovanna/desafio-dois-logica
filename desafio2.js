@@ -11,3 +11,11 @@ for (let i = 0; i < 30; i++)
     derrotas += 1
 }
 
+let partidasParaCalcular = calcularSaldoRank(vitorias, derrotas)
+console.log(partidasParaCalcular)
+
+function calcularSaldoRank (nVitoria, nDerrota)
+{
+    let saldoRank = vitorias - derrotas
+    return saldoRank
+}
